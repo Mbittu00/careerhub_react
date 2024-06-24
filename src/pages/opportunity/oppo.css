@@ -1,0 +1,79 @@
+.oppo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.oppo >.upholder> .upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.oppo >.upholder> .upper > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}.oppo >.upholder> .upper>div{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    text-transform: capitalize;
+}.oppo>.upholder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}.oppo>.upholder>.btn{
+    display: flex;
+    align-items: center;
+    background: blue;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+    font-size: 12px;
+}.oppo>.mid{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}.oppo>.mid>.title{
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-weight: 600;
+}.oppo>.mid>.dec{
+font-size: 14px;
+}.oppo>.lower{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}.oppo>.lower>.title{
+    text-transform: capitalize;
+    font-weight: 600;
+}.oppo>.lower>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}.oppo>.lower>ul>li{
+    text-transform: capitalize;
+}.oppo>.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}.oppo>.box>.title{
+    text-transform: capitalize;
+    font-weight: 600;
+}.oppo>.box>.holder{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}.oppo>.box>.holder>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}.oppo>.box>.holder>div>span{
+    text-transform: capitalize;
+}
